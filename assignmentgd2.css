@@ -1,0 +1,459 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+.main > .lienhe
+{
+    line-height:30px;
+    background-color:orangered;
+    color:white;
+    padding: 5px;
+    font-variant:small-caps;
+}
+.timkiem
+{
+    float: right;
+    margin: 0 20px;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: wheat;
+}
+input[type="text"]
+{
+    width: 535px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 3px 7px;
+    transition:0.6s ease-in-out;
+}
+
+.MENU
+{
+    background-color: orangered;
+    line-height: 40px;
+}
+.MENU > center >a
+{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+.MENU > center >a:hover
+{
+    color: pink;
+    text-decoration: none;
+}
+article
+{
+    min-height: 800px;
+    background-color: lightpink;
+    width: 70%;
+    float: left;
+}
+aside
+{
+    min-height: 800px;
+    background-color: rgb(243, 236, 237);
+    width: 28%;
+    float:right;
+    padding: 10px;
+}
+iframe[name=page]
+{
+    width: 100%;
+    min-height: 800px;
+}
+.bentrai
+{
+    min-height: 800px;
+    background-color: white;
+    width: 57%;
+    float: left;
+    line-height: 40px;
+    border-bottom: 3px solid lightblue;
+    order: 1px solid gray;
+    margin-top: 7px;
+    overflow: auto;
+    padding: 10px;
+}
+.bentrai img
+{
+    float: left;
+    width: 48%;
+    padding: 10px;
+}
+.benphai
+{
+    min-height: 800px;
+    width: 39%;
+    float: right;
+    padding: 10px;
+}
+.MENU1>a
+{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+.MENU1
+{
+    background-color: rgba(76, 142, 240, 0.74);
+    line-height: 40px;
+    width: 30%;
+    border-bottom: 2px lightblue solid;
+}
+.MENU2 >a
+{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+.MENU2
+{
+    background-color: rgba(76, 142, 240, 0.74);
+    line-height: 40px;
+    width: 100%;
+    border-bottom: 2px lightblue solid;
+
+}
+footer
+{
+    line-height:35px;
+    background-color: orangered;
+    text-align:center;
+    font-variant:small-caps;
+    clear:both;
+}
+.MENU3 >a
+{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+.MENU3
+{
+    background-color: red;
+    line-height: 40px;
+    width: 100%;
+    border-bottom: 2px lightblue solid;
+}
+.kedo
+{
+    border-top: 1px dashed red;
+}
+.thongbao>a
+{
+    color: red;
+}
+.thongbao
+{
+    border: 3px solid red;
+    padding: 10px;
+}
+.trai
+{
+    min-height: 236px;
+    width: 48%;
+    float: left;
+    background-color: rgb(79, 79, 189);
+    color: white;
+    padding: 1%;
+}
+.phai
+{
+    background-color: rgb(197, 197, 31);
+    min-height: 200px;
+    width: 48%;
+    float: right;
+    padding: 1%;
+}
+.trai:hover
+{
+    background-color: gray;
+}
+.phai:hover
+{
+    background-color: gray;
+}
+.cot1
+{
+    min-height:1000px;
+    width:50%;
+    background-color: white;
+    float:left;
+}
+.cot2
+{
+    min-height:1000px;
+    width:50%;
+    background-color: white;
+    float:right;
+}
+.cot1 .o:hover
+{
+    background-color: aliceblue;
+}
+.cot2 .o:hover
+{
+    background-color: aliceblue;
+}
+.tinchinh
+{
+    min-height:300px;
+    width:50%;
+    background-color: white;
+    float:left;
+}
+.mainnew
+{
+    border: 1px solid gray;
+    margin-top: 7px;
+    overflow: auto;
+}
+.anhtinchinh
+{
+    min-height:300px;
+    width:50%;
+    background-color: white;
+    float:right;
+}
+.tinbenphai
+{
+    min-height:300px;
+    width:40%;
+    background-color: white;
+    float:left;
+}
+.tinbentrai
+{
+    min-height:300px;
+    width:40%;
+    background-color: white;
+    float:right;
+}
+
+.tinbentrai .o:hover
+{
+    background-color: aliceblue;
+}
+.tinbenphai .o:hover
+{
+    background-color: aliceblue;
+}
+.menu4
+{
+    min-height:300px;
+    width:20%;
+    float:left; 
+}
+.menu4>ul>li>a
+{
+    display:block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10px;
+    line-height:40px
+}
+.menu4>ul
+{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align:center;
+}
+.menu4>ul>li>a:hover
+{
+    color:yellow;
+}
+.menu4 ul ul
+{
+    position:absolute;
+    display:none;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3 px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 1px gray;
+}
+.menu4 ul ul a
+{
+    display:block;
+    line-height:30px;
+    color:orangered;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 10px;
+}
+.menu4>ul>li:hover>ul
+{
+    display:block;
+}
+.menu4 ul ul a:hover
+{
+    background-color:orangered;
+    color:white;
+}
+.tinduoibenphai
+{
+    min-height:300px;
+    width:40%;
+    background-color: white;
+    float:right;
+}
+.tinduoibentrai
+{
+    min-height:300px;
+    width:40%;
+    background-color: white;
+    float:right;
+}
+.tinduoifpt
+{
+    min-height:300px;
+    width:20%;
+    background-color: white;
+    float:left;
+}
+.tinduoibentrai .o:hover
+{
+    background-color: aliceblue;
+}
+.tinduoibenphai .o:hover
+{
+    background-color: aliceblue;
+}
+.menu4:hover
+{
+    background-color: aliceblue;
+}
+.lable
+{
+    min-height:600px;
+    width:25%;
+    background-color: white;
+    float:left;
+}
+.type
+{
+    min-height:600px;
+    width:75%;
+    background-color: white;
+    float:right;
+}
+.cot
+{
+    margin-top: 10px;
+    width: 45%;
+    border: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    height: 500px;
+    margin: 10px 0;
+}
+.cot img
+{
+    width: 90%;
+}
+.trai
+{
+    float: left;
+}
+.phai
+{
+    float: right;
+}
+.cot2
+{
+    margin-top: 10px;
+    width: 45%;
+    border: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    height: 500px;
+    margin: 10px 0;
+}
+.cot2 img
+{
+    width: 90%;
+}
+.trai2
+{
+    min-height: 250px;
+    width: 47%;
+    float: left;
+    background-color: rgb(47, 182, 153);
+    color: white;
+    padding: 1%;
+}
+.phai2
+{
+    background-color: rgb(177, 79, 177);
+    min-height: 250px;
+    width: 47%;
+    float: right;
+    padding: 1%;
+}
+.trai2:hover
+{
+    background-color: gray;
+}
+.phai2:hover
+{
+    background-color: gray;
+}
+
+.cot3
+{
+    margin-top: 10px;
+    width: 45%;
+    border: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    height: 500px;
+    margin: 10px 0;
+}
+.cot3 img
+{
+    width: 90%;
+}
+.trai3
+{
+    min-height: 250px;
+    width: 47%;
+    float: left;
+    background-color: rgb(228, 96, 96);
+    color: white;
+    padding: 1%;
+}
+.phai3
+{
+    background-color: rgb(204, 204, 58);
+    min-height: 250px;
+    width: 47%;
+    float: right;
+    padding: 1%;
+}
+.trai3:hover
+{
+    background-color: gray;
+}
+.phai3:hover
+{
+    background-color: gray;
+}
+form
+{
+    border: 2px solid gray;
+    overflow: auto;
+    margin: 10px;
+}
